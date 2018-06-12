@@ -1,0 +1,31 @@
+.activeElement{
+    color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.carousel > img{
+    max-height: 550px;
+}
+
+@media (min-width: 992px){
+    #favorites{
+        position: fixed;
+        right: 20px;
+        font-size: 24px;
+    }
+
+    .carousel-inner{
+        max-height: 550px;
+        max-width: 1080px;
+    }
+
+    .center {
+        width: 70%;
+    }
+}
