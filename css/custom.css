@@ -145,6 +145,24 @@ button{
             transform: rotateY(180deg);
   }
 
+
+  /* details-pages  -----------------------------------------------------------------------------------------*/
+
+  audio{
+    float:left;
+  }
+
+  .add-to-favorite{
+    float: right;
+    font-size: 0.8em;
+    line-height: 3.5em;
+  }
+
+  #heart{
+    font-size: 1.5em;
+  }
+
+
 /* footer  -----------------------------------------------------------------------------------------*/
 
   .fa-angle-double-up{
@@ -158,6 +176,18 @@ button{
     .nav-link{
         text-align: left;
     }
+
+    .navbar-nav{
+        margin-left: auto !important;
+        padding-right: 75px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #f00; /* Changes regular toggle color */
+      }
+      .navbar-default .navbar-toggle .icon-bar:hover {
+        background-color: #fff; /* Changes toggle color on hover */
+      }
 
     #favorites{
         position: fixed;
@@ -174,4 +204,8 @@ button{
     .center {
         width: 70%;
     }
+
+    .audio-container{
+        margin-top: 50px;
+      }
 }
